@@ -6,12 +6,11 @@ import { Avatar, Box, ButtonBase } from '@mui/material';
 
 // project imports
 import LogoSection from '../LogoSection';
-import SearchSection from './SearchSection';
 import ProfileSection from './ProfileSection';
-import NotificationSection from './NotificationSection';
 
 // assets
 import { IconMenu2 } from '@tabler/icons';
+import BarChooser from './BarChooser';
 
 // ==============================|| MAIN NAVBAR / HEADER ||============================== //
 
@@ -54,14 +53,12 @@ const Header = ({ handleLeftDrawerToggle }) => {
                     </Avatar>
                 </ButtonBase>
             </Box>
-
-            {/* header search */}
-            <SearchSection />
             <Box sx={{ flexGrow: 1 }} />
+            <BarChooser listBars={[{ label: 'SpeakEasyBar', id: 'SpeakEasyBar' }]} />
             <Box sx={{ flexGrow: 1 }} />
 
             {/* notification & profile */}
-            <NotificationSection />
+            {/* <NotificationSection /> */}
             <ProfileSection />
         </>
     );

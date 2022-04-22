@@ -2,8 +2,9 @@
     "compilerOptions": {
         "target": "esnext",
         "module": "commonjs",
-        "baseUrl": "src"
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports": true
     },
     "include": ["src/**/*"],
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "**/node_modules/*"]
 }

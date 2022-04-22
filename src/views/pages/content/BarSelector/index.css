@@ -1,0 +1,51 @@
+.Banner {
+    height: 300px;
+    position: relative;
+}
+.Media {
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.MediaCaption {
+    text-overflow: ellipsis;
+
+    position: absolute;
+    bottom: 0;
+
+    padding: 15px;
+
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+
+    width: 100%;
+    height: 10%;
+}
+.BannerGrid {
+    height: 100%;
+    position: relative;
+}
+.AnimeButtom,
+.AnimeButtom2 {
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

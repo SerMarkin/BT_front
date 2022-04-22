@@ -46,14 +46,7 @@ const Login = () => {
                                                         gutterBottom
                                                         variant={matchDownSM ? 'h3' : 'h2'}
                                                     >
-                                                        Hi, Welcome Back
-                                                    </Typography>
-                                                    <Typography
-                                                        variant="caption"
-                                                        fontSize="16px"
-                                                        textAlign={matchDownSM ? 'center' : 'inherit'}
-                                                    >
-                                                        Enter your credentials to continue
+                                                        Вход
                                                     </Typography>
                                                 </Stack>
                                             </Grid>
@@ -70,10 +63,10 @@ const Login = () => {
                                             <Typography
                                                 component={Link}
                                                 to="/pages/register/register3"
-                                                variant="subtitle1"
+                                                variant="h3"
                                                 sx={{ textDecoration: 'none' }}
                                             >
-                                                Don&apos;t have an account?
+                                                Нет аккаунта?
                                             </Typography>
                                         </Grid>
                                     </Grid>

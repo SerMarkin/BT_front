@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material/styles';
 
 // assets
-import colors from 'assets/scss/_themes-vars.module.scss';
+import colors from 'assets/scss/_themes-vars-dark.module.scss';
 
 // project imports
 import componentStyleOverrides from './compStyleOverride';
@@ -15,18 +15,17 @@ import themeTypography from './typography';
 
 export const theme = (customization) => {
     const color = colors;
-
     const themeOption = {
         colors: color,
-        heading: color.grey900,
+        heading: color.grey50,
         paper: color.paper,
         backgroundDefault: color.paper,
-        background: color.primaryLight,
-        darkTextPrimary: color.grey700,
-        darkTextSecondary: color.grey500,
-        textDark: color.grey900,
-        menuSelected: color.secondaryDark,
-        menuSelectedBack: color.secondaryLight,
+        background: color.grey900,
+        darkTextPrimary: color.grey100,
+        darkTextSecondary: color.grey300,
+        textDark: color.grey400,
+        menuSelected: color.grey900,
+        menuSelectedBack: color.grey200,
         divider: color.grey200,
         customization
     };

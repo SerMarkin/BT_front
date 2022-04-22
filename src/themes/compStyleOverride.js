@@ -5,7 +5,7 @@ export default function componentStyleOverrides(theme) {
             styleOverrides: {
                 root: {
                     fontWeight: 500,
-                    borderRadius: '4px'
+                    borderRadius: '2px'
                 }
             }
         },
@@ -36,7 +36,8 @@ export default function componentStyleOverrides(theme) {
         MuiCardContent: {
             styleOverrides: {
                 root: {
-                    padding: '24px'
+                    padding: '24px',
+                    paddingBottom: '0'
                 }
             }
         },
@@ -180,6 +181,13 @@ export default function componentStyleOverrides(theme) {
                 tooltip: {
                     color: theme.paper,
                     background: theme.colors?.grey700
+                }
+            }
+        },
+        MuiGridItem: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: 'red'
                 }
             }
         }

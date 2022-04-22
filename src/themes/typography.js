@@ -48,7 +48,7 @@ export default function themeTypography(theme) {
         },
         caption: {
             fontSize: '0.75rem',
-            color: theme.darkTextSecondary,
+            color: theme.colors.grey250,
             fontWeight: 400
         },
         body1: {

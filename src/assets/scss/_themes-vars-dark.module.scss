@@ -1,0 +1,177 @@
+// paper & background
+$paper: #323232;
+
+// primary
+$primaryLight: #323232;
+$primaryMain: #2196f3;
+$primaryDark: #1e88e5;
+$primary200: #90caf9;
+$primary800: #1565c0;
+
+// secondary
+$secondaryLight: #555555;
+$secondaryMain: #57a7ff;
+$secondaryDark: #c5c5c5;
+$secondary200: #b39ddb;
+$secondary800: #4527a0;
+
+// success Colors
+$successLight: #b9f6ca;
+$success200: #69f0ae;
+$successMain: #00e676;
+$successDark: #00c853;
+
+// error
+$errorLight: #ef9a9a;
+$errorMain: #f44336;
+$errorDark: #c62828;
+
+// orange
+$orangeLight: #fbe9e7;
+$orangeMain: #ffab91;
+$orangeDark: #d84315;
+
+// warning
+$warningLight: #fff8e1;
+$warningMain: #ffe57f;
+$warningDark: #ffc107;
+
+// grey
+$grey50: #fafafa;
+$grey100: #f1f1f1;
+$grey150: #e3e3e3;
+$grey200: #d4d4d4;
+$grey250: #c6c6c6;
+$grey300: #b8b8b8;
+$grey350: #aaaaaa;
+$grey400: #9c9c9c;
+$grey450: #8e8e8e;
+$grey500: #7f7f7f;
+$grey550: #717171;
+$grey600: #636363;
+$grey650: #555555;
+$grey700: #474747;
+$grey750: #383838;
+$grey800: #2a2a2a;
+$grey850: #1c1c1c;
+$grey900: #0e0e0e;
+
+// ==============================|| DARK THEME VARIANTS ||============================== //
+
+// paper & background
+$darkBackground: #e5ddc0; // level 3
+$darkPaper: #eee6c9; // level 4
+
+// dark 800 & 900
+$darkLevel1: #d6ceb0; // level 1
+$darkLevel2: #ded6b9; // level 2
+
+// primary dark
+$darkPrimaryLight: #1c0d02;
+$darkPrimaryMain: #de690c;
+$darkPrimaryDark: #e1771a;
+$darkPrimary200: #6f3506;
+$darkPrimary800: #ea9a3f;
+
+// secondary dark
+$darkSecondaryLight: #2e3b16;
+$darkSecondaryMain: #83b200;
+$darkSecondaryDark: #9ae000;
+$darkSecondary200: #4c6224;
+$darkSecondary800: #9dff15;
+
+// text variants
+$darkTextTitle: #e0e0e0;
+$darkTextPrimary: #b4b4b4;
+$darkTextSecondary: #8b8b8b;
+
+// ==============================|| JAVASCRIPT ||============================== //
+
+:export {
+    // paper & background
+    paper: $paper;
+
+    // primary
+    primaryLight: $primaryLight;
+    primary200: $primary200;
+    primaryMain: $primaryMain;
+    primaryDark: $primaryDark;
+    primary800: $primary800;
+
+    // secondary
+    secondaryLight: $secondaryLight;
+    secondary200: $secondary200;
+    secondaryMain: $secondaryMain;
+    secondaryDark: $secondaryDark;
+    secondary800: $secondary800;
+
+    // success
+    successLight: $successLight;
+    success200: $success200;
+    successMain: $successMain;
+    successDark: $successDark;
+
+    // error
+    errorLight: $errorLight;
+    errorMain: $errorMain;
+    errorDark: $errorDark;
+
+    // orange
+    orangeLight: $orangeLight;
+    orangeMain: $orangeMain;
+    orangeDark: $orangeDark;
+
+    // warning
+    warningLight: $warningLight;
+    warningMain: $warningMain;
+    warningDark: $warningDark;
+
+    // grey
+    grey50: $grey50;
+    grey100: $grey100;
+    grey150: $grey150;
+    grey200: $grey200;
+    grey250: $grey250;
+    grey300: $grey300;
+    grey350: $grey350;
+    grey400: $grey400;
+    grey450: $grey450;
+    grey500: $grey500;
+    grey550: $grey550;
+    grey600: $grey600;
+    grey650: $grey650;
+    grey700: $grey700;
+    grey750: $grey750;
+    grey800: $grey800;
+    grey850: $grey850;
+    grey900: $grey900;
+
+    // ==============================|| DARK THEME VARIANTS ||============================== //
+
+    // paper & background
+    darkPaper: $darkPaper;
+    darkBackground: $darkBackground;
+
+    // dark 800 & 900
+    darkLevel1: $darkLevel1;
+    darkLevel2: $darkLevel2;
+
+    // text variants
+    darkTextTitle: $darkTextTitle;
+    darkTextPrimary: $darkTextPrimary;
+    darkTextSecondary: $darkTextSecondary;
+
+    // primary dark
+    darkPrimaryLight: $darkPrimaryLight;
+    darkPrimaryMain: $darkPrimaryMain;
+    darkPrimaryDark: $darkPrimaryDark;
+    darkPrimary200: $darkPrimary200;
+    darkPrimary800: $darkPrimary800;
+
+    // secondary dark
+    darkSecondaryLight: $darkSecondaryLight;
+    darkSecondaryMain: $darkSecondaryMain;
+    darkSecondaryDark: $darkSecondaryDark;
+    darkSecondary200: $darkSecondary200;
+    darkSecondary800: $darkSecondary800;
+}
