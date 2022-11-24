@@ -29,7 +29,7 @@ export const POST = async (url = '', data = {}) => {
         },
         redirect: 'follow', // manual, *follow, error
         referrerPolicy: 'no-referrer', // no-referrer, *client
-        body: data
+        body: JSON.stringify(data)
     });
     return await response.json(); // parses JSON response into native JavaScript objects
 };
